@@ -32,7 +32,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "LEGO El Señor de los Anillos",
@@ -42,7 +43,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Borderlands 2",
@@ -52,7 +54,8 @@
       "platforms": [
         "Epic Games Store"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Shadow of the Tomb Raider: Definitive Edition",
@@ -62,7 +65,8 @@
       "platforms": [
         "Epic Games Store"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "GreedFall: Gold Edition",
@@ -72,7 +76,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Whispered Secrets: Everburning Candle Collector’s Edition",
@@ -82,7 +87,8 @@
       "platforms": [
         "Amazon Games App"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Minabo — A Walk through Life",
@@ -92,7 +98,8 @@
       "platforms": [
         "Amazon Games App"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Eternights",
@@ -102,7 +109,8 @@
       "platforms": [
         "Epic Games Store"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "LEGO Indiana Jones: The Original Adventures",
@@ -112,7 +120,8 @@
       "platforms": [
         "Amazon Games App"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Borderlands: The Pre-Sequel",
@@ -122,7 +131,8 @@
       "platforms": [
         "Epic Games Store"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Tales from the Borderlands",
@@ -132,7 +142,8 @@
       "platforms": [
         "Epic Games Store"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "9 Years of Shadows",
@@ -142,7 +153,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Moonlighter",
@@ -152,7 +164,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Golfie",
@@ -162,7 +175,8 @@
       "platforms": [
         "Amazon Games App"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Cursed to Golf",
@@ -172,7 +186,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Hell Pie",
@@ -182,7 +197,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Showgunners",
@@ -192,7 +208,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Arcadegeddon",
@@ -202,7 +219,8 @@
       "platforms": [
         "Epic Games Store"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Thronebreaker: The Witcher Tales",
@@ -212,7 +230,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "The Falconeer",
@@ -222,7 +241,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "LEGO El Hobbit",
@@ -232,7 +252,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "I Love Finding Cats & Pups — Collector’s Edition",
@@ -242,7 +263,8 @@
       "platforms": [
         "Legacy Games"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Kerbal Space Program",
@@ -252,7 +274,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Mystery Case Files: Black Crown — Collector's Edition",
@@ -262,7 +285,8 @@
       "platforms": [
         "Amazon Games App"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Ghost Song",
@@ -272,7 +296,8 @@
       "platforms": [
         "GOG"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Ynglet",
@@ -282,7 +307,8 @@
       "platforms": [
         "Amazon Games App"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Black Desert",
@@ -292,7 +318,8 @@
       "platforms": [
         "Pearl Abyss Launcher"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     },
     {
       "name": "Giana Sisters: Twisted Dreams",
@@ -302,7 +329,8 @@
       "platforms": [
         "Amazon Games App"
       ],
-      "hidden": false
+      "hidden": false,
+      "tier": "Amazon Prime"
     }
   ],
   "playStationPlus": [
