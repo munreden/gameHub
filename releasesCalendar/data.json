@@ -307,43 +307,43 @@
   ],
   "playStationPlus": [
     {
-      "name": "Little Nightmares II",
+      "name": "Little Nightmares II (PS4 & PS5)",
       "date": "2024-09-03",
       "url": "https://store.playstation.com/es-es/product/EP0700-PPSA02154_00-LITTLENIGHTS2000",
       "cover": "https://store-images.s-microsoft.com/image/apps.1273.64860558234786024.c6d17f3a-2d73-46e6-8a1e-c828e528d51f.c0546c16-c1b2-4f91-921f-762c88c3ab54?q=90&w=177&h=265",
       "tier": "Essential",
       "platforms": [
-        "PS4",
-        "PS5"
+        "PS5",
+        "PS4"
       ],
       "hidden": false
     },
     {
-      "name": "MLB The Show 24",
+      "name": "MLB The Show 24 (PS4 & PS5)",
       "date": "2024-09-03",
       "url": "https://store.playstation.com/es-es/product/UP9000-PPSA17085_00-MLBTHESHOW24PLUS",
       "cover": "https://store-images.s-microsoft.com/image/apps.43845.13664843883372690.8fc867c0-5f07-4eac-9e1c-5b855c781bdb.0451c125-a678-4547-9cb0-4b127d4e3d39?q=90&w=177&h=265",
       "tier": "Essential",
       "platforms": [
-        "PS4",
-        "PS5"
+        "PS5",
+        "PS4"
       ],
       "hidden": false
     },
     {
-      "name": "Quidditch Champions",
+      "name": "Quidditch Champions (PS4 & PS5)",
       "date": "2024-09-03",
       "url": "https://store.playstation.com/es-es/product/UP1018-PPSA05834_00-QUIDDITCH0000000",
       "cover": "https://store-images.s-microsoft.com/image/apps.8810.14512105128062645.af9dfbf6-f9ff-4b06-990d-523df7195906.57e5f70a-ab6a-40e5-8ab4-ca929674ae75?q=90&w=177&h=265",
       "tier": "Essential",
       "platforms": [
-        "PS4",
-        "PS5"
+        "PS5",
+        "PS4"
       ],
       "hidden": false
     },
     {
-      "name": "Dead Space",
+      "name": "Dead Space (PS5)",
       "date": "2024-10-01",
       "url": "https://store.playstation.com/es-es/product/EP0006-PPSA03846_00-BEYONDPS5GAME000",
       "cover": "https://store-images.s-microsoft.com/image/apps.25575.13710698285394664.b69d40fa-3b9c-47c8-b252-b52cae59523c.f7b6e42a-3b1a-437f-977b-dfa2cf28911e?q=90&w=177&h=265",
@@ -354,26 +354,26 @@
       "hidden": false
     },
     {
-      "name": "WWE 2K24",
+      "name": "WWE 2K24 (PS4 & PS5)",
       "date": "2024-10-01",
       "url": "https://store.playstation.com/es-es/product/EP1001-PPSA16307_00-WWE2K24CROSSGEN0",
       "cover": "https://store-images.s-microsoft.com/image/apps.13944.13518529325843025.aa8a7802-8295-4137-85a2-bda7743b51e9.c15155f4-f6f2-4bf5-a9b5-7261bc75d3e6?q=90&w=177&h=265",
       "tier": "Essential",
       "platforms": [
-        "PS4",
-        "PS5"
+        "PS5",
+        "PS4"
       ],
       "hidden": false
     },
     {
-      "name": "Doki Doki Literature Club Plus!",
+      "name": "Doki Doki Literature Club Plus! (PS4 & PS5)",
       "date": "2024-10-01",
       "url": "https://store.playstation.com/es-es/product/EP0600-PPSA03733_00-DOKIDOKILITCLUBP",
       "cover": "https://store-images.s-microsoft.com/image/apps.12718.13839137676655214.0b01fff9-297b-4f4c-a938-ca189d72cc5b.1ae6041b-7258-4b4c-89e5-66fc134224d7?q=90&w=177&h=265",
       "tier": "Essential",
       "platforms": [
-        "PS4",
-        "PS5"
+        "PS5",
+        "PS4"
       ],
       "hidden": false
     }
