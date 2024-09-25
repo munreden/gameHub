@@ -1,11 +1,13 @@
 document.addEventListener("DOMContentLoaded", async function() {
-  const jsonFileName = 'https://munreden.github.io/comunidadGamePassES/releasesCalendar/data.json'; 
+  const jsonFileName = 'https://munreden.github.io/gameHub/releasesCalendar/data.json'; 
 
   try {
     const gamesData = await readJson(jsonFileName);
-    const releaseGames = gamesData.releaseGames;
-    const leavingGames = gamesData.leavingGames;
-    const freePlayDaysGames = gamesData.freePlayDays; // Modificado aquí
+
+    // Se obtienen las diferentes secciones de juegos
+    const ubisoftPlusGames = gamesData.ubisoftPlus;
+    const primeGamingGames = gamesData.primeGaming;
+    const playStationPlusGames = gamesData.playStationPlus;
 
     const weekDays = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"];
     const monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
@@ -84,37 +86,26 @@ document.addEventListener("DOMContentLoaded", async function() {
       document.getElementById("calendarDays").innerHTML = calendarHTML;
 
       // Después de renderizar el calendario, inicializamos el modal
-      initializeModal(releaseGames, leavingGames, freePlayDaysGames, monthNames);
+      initializeModal(ubisoftPlusGames, primeGamingGames, playStationPlusGames, monthNames);
 
       // Actualizar botones de navegación
       updateNavigationButtons();
     }
 
-    function updateNavigationButtons() {
-      document.getElementById("prevMonth").disabled = !canNavigatePrev();
-      document.getElementById("nextMonth").disabled = !canNavigateNext();
-    }
-
-    function generateWeekDaysHTML() {
-      let html = '<div class="week-row">';
-      weekDays.forEach(day => {
-        html += `<span class="week-columns">${day}</span>`;
-      });
-      html += '</div>';
-      return html;
-    }
-
     function generateDayHTML(day, formattedDate, adjustedFirstDay) {
-      const gamesForThisDay = releaseGames.filter(game => game.date === formattedDate);
-      const gamesLeavingThisDay = leavingGames.filter(game => game.date === formattedDate);
-      const freePlayDaysForThisDay = freePlayDaysGames.filter(game => game.date === formattedDate);
-
+      // Filtrar juegos por fecha y que no estén ocultos para cada categoría
+      const gamesForThisDay = [
+        ...ubisoftPlusGames.filter(game => game.date === formattedDate && game.hidden === false),
+        ...primeGamingGames.filter(game => game.date === formattedDate && game.hidden === false),
+        ...playStationPlusGames.filter(game => game.date === formattedDate && game.hidden === false)
+      ];
+    
       const isToday = displayedYear === currentYear && displayedMonth === currentMonth && day === currentDate.getDate();
     
       let dayContent = `<span class="${isToday ? 'day-active' : 'day'}" data-date="${formattedDate}">${day}`;
     
-      if (gamesForThisDay.length > 0 || gamesLeavingThisDay.length > 0 || freePlayDaysForThisDay.length > 0) {
-        dayContent += generateBadgeHTML(gamesForThisDay, gamesLeavingThisDay, freePlayDaysForThisDay);
+      if (gamesForThisDay.length > 0) {
+        dayContent += generateBadgeHTML(gamesForThisDay);
       }
     
       dayContent += `</span>`;
@@ -125,29 +116,11 @@ document.addEventListener("DOMContentLoaded", async function() {
       return dayContent;
     }
 
-    function generateBadgeHTML(gamesForThisDay, gamesLeavingThisDay, freePlayDaysForThisDay) {
-      return `
-        <span class="new-games-badge"></span>
-        <div>
-          <span class="new-games-title">
-            ${gamesForThisDay.length > 0 ? `${gamesForThisDay.length} ${gamesForThisDay.length > 1 ? ' entran' : ' entra'}` : ''}
-            ${gamesForThisDay.length > 0 && gamesLeavingThisDay.length > 0 ? ', ' : ''}
-            ${gamesLeavingThisDay.length > 0 ? `${gamesLeavingThisDay.length} ${gamesLeavingThisDay.length > 1 ? ' salen' : ' sale'}` : ''}
-            ${freePlayDaysForThisDay.length > 0 ? (gamesForThisDay.length > 0 || gamesLeavingThisDay.length > 0 ? ' ' : '') + '<div><span class="xfpd"><i class="bi bi-xbox"></i> FREE PLAY DAYS</span></div>' : ''}
-          </span>
-        </div>`;
-    }    
-
-    function completeLastWeek(totalDays) {
-      const remainingSpaces = (7 - (totalDays % 7)) % 7;
-      let html = '';
-      for (let i = 0; i < remainingSpaces; i++) {
-        html += `<span class="day">-</span>`;
-      }
-      return html;
+    function generateBadgeHTML(gamesForThisDay) {
+      return `<span class="new-games-badge"></span><div><span class="new-games-title">${gamesForThisDay.length} ${gamesForThisDay.length > 1 ? 'juegos' : 'juego'} disponibles</span></div>`;
     }
 
-    function initializeModal(releaseGames, leavingGames, freePlayDaysGames, monthNames) {
+    function initializeModal(ubisoftPlusGames, primeGamingGames, playStationPlusGames, monthNames) {
       const modal = document.getElementById("gameModal");
       const modalBody = document.getElementById("modal-body");
       const modalTitle = document.getElementById("modal-title");
@@ -155,30 +128,20 @@ document.addEventListener("DOMContentLoaded", async function() {
       document.querySelectorAll(".day, .day-active").forEach(day => {
         day.addEventListener("click", function() {
           const date = this.getAttribute("data-date");
-          const gamesForThisDay = releaseGames.filter(game => game.date === date);
-          const gamesLeavingThisDay = leavingGames.filter(game => game.date === date);
-          const freePlayDaysForThisDay = freePlayDaysGames.filter(game => game.date === date);
     
-          if (gamesForThisDay.length > 0 || gamesLeavingThisDay.length > 0 || freePlayDaysForThisDay.length > 0) {
+          // Filtrar juegos por fecha y que no estén ocultos
+          const gamesForThisDay = [
+            ...ubisoftPlusGames.filter(game => game.date === date && game.hidden === false),
+            ...primeGamingGames.filter(game => game.date === date && game.hidden === false),
+            ...playStationPlusGames.filter(game => game.date === date && game.hidden === false)
+          ];
+    
+          if (gamesForThisDay.length > 0) {
             const formattedDate = formatDateForModal(date, monthNames);
             modalTitle.textContent = `Juegos del ${formattedDate}`.toUpperCase();
     
             let modalContent = '<div class="games-container">';
-            if (gamesForThisDay.length > 0) {
-              modalContent += `<h3>ENTRAN</h3>${generateGamesEntry(gamesForThisDay)}`;
-            }
-            if (gamesLeavingThisDay.length > 0) {
-              modalContent += `<h3>SALEN</h3>${generateGamesEntry(gamesLeavingThisDay)}`;
-            }
-            if (freePlayDaysForThisDay.length > 0) {
-              const freePlayDateLeaving = freePlayDaysForThisDay[0].dateLeaving;
-              const formattedFreePlayDate = new Date(freePlayDateLeaving).toLocaleDateString('es-ES', {
-                day: 'numeric',
-                month: 'long',
-                year: 'numeric'
-              });
-              modalContent += `<h3>XBOX FREE PLAY DAYS (hasta ${formattedFreePlayDate})</h3>${generateGamesEntry(freePlayDaysForThisDay)}`;
-            }
+            modalContent += `<h3>JUEGOS</h3>${generateGamesEntry(gamesForThisDay)}`;
             modalContent += '</div>';
     
             modalBody.innerHTML = modalContent;
@@ -190,37 +153,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
     
     function generateGamesEntry(games) {
-      return `
-        <div class="games-entry">
-          ${games.map(game => `
-            <div class="game-entry">
-              <a href="${game.url}" target="_blank">
-                ${generatePlatformsIcons(game.platforms)}
-                <img class="cover" src="${game.cover}" alt="${game.name}">
-                <p class="game-name">${game.name}</p>
-              </a>
-            </div>
-          `).join('')}
-        </div>`;
-    }
-
-    function generatePlatformsIcons(platforms) {
-      let platformsHTML = '<div class="platforms">';
-
-      if (platforms.includes("xbox")) {
-        platformsHTML += `<i class="bi bi-xbox"></i>`;
-      }
-
-      if (platforms.includes("cloud")) {
-        platformsHTML += `<i class="bi bi-cloud-fill"></i>`;
-      }
-
-      if (platforms.includes("pc")) {
-        platformsHTML += `<i class="bi bi-pc-display"></i>`;
-      }
-
-      platformsHTML += '</div>';
-      return platformsHTML;
+      return `<div class="games-entry">${games.map(game => `<div class="game-entry"><a href="${game.url}" target="_blank"><img class="cover" src="${game.cover}" alt="${game.name}"><p class="game-name">${game.name}</p></a></div>`).join('')}</div>`;
     }
 
     function formatDateForModal(date, monthNames) {

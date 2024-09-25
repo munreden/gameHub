@@ -7,7 +7,7 @@
   --font-size-calendar-days: 1.5em;
   --font-size-new-games-badge: 0.8em;
   --font-size-new-games-title: 0.7em;
-  --font-size-xfpd: 0.7em;
+  --font-size-fpd: 0.7em;
 
 
   /* Border radius */
@@ -35,7 +35,7 @@
   /* Colors */
   --color-background: #dfebed;
   --color-calendar-background: #1d1d1d;
-  --color-active-day: #107c10;
+  --color-active-day: #112dcc;
   --color-new-games-badge: #750000;
 }
 
@@ -138,7 +138,7 @@ body {
   text-align: center;
 }
 
-.xfpd{
+.fpd{
   background-color: var(--color-active-day);
   border-radius: var(--border-radius-day-active);
   padding: 0.3em;
@@ -377,7 +377,7 @@ body {
     font-size: var(--font-size-calendar-title);
   }
 
-  .xfpd{
+  .fpd{
     font-size: 0.5em;
   }
   
