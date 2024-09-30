@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", async function() {
       // Crear un array de strings con el formato "X juegos Tier"
       const tierCounts = Object.keys(gamesByTier).map(tier => {
         const count = gamesByTier[tier];
-        return `${count} juego${count > 1 ? 's' : ''} ${tier}`;
+        return `${count} ${tier}`;
       });
 
       // Unir los strings con una coma y un espacio
