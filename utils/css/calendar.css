@@ -19,6 +19,7 @@
   /* Margin */
   --margin-footer-elements: 1em;
   --margin-platforms-i: 0 0.3em;
+  --margin-cover: 0.5em 0;
 
   /* Padding */
   --padding-calendar-title: 0.2em;
@@ -35,8 +36,8 @@
   /* Colors */
   --color-background: #dfebed;
   --color-calendar-background: #1d1d1d;
-  --color-active-day: #112dcc;
-  --color-new-games-badge: #750000;
+  --color-active-day: #005499;
+  --color-new-games-badge: #c1d80f;
 }
 
 /* Global Styles */
@@ -200,8 +201,14 @@ body {
   gap: 1em;
 }
 
-.platforms i{
+.platforms {
   margin: var(--margin-platforms-i);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .game-entry {
@@ -219,7 +226,7 @@ body {
   border-radius: var(--border-radius-cover);
   width: var(--cover-width);
   height: auto;
-  margin: 0 auto;
+  margin: var(--margin-cover) auto;
 }
 
 /* Footer */

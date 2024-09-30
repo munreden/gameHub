@@ -92,6 +92,20 @@ document.addEventListener("DOMContentLoaded", async function() {
       updateNavigationButtons();
     }
 
+    function updateNavigationButtons() {
+      document.getElementById("prevMonth").disabled = !canNavigatePrev();
+      document.getElementById("nextMonth").disabled = !canNavigateNext();
+    }
+
+    function generateWeekDaysHTML() {
+      let html = '<div class="week-row">';
+      weekDays.forEach(day => {
+        html += `<span class="week-columns">${day}</span>`;
+      });
+      html += '</div>';
+      return html;
+    }
+
     function generateDayHTML(day, formattedDate, adjustedFirstDay) {
       // Filtrar juegos por fecha y que no estén ocultos para cada categoría
       const gamesForThisDay = [
@@ -120,6 +134,15 @@ document.addEventListener("DOMContentLoaded", async function() {
       return `<span class="new-games-badge"></span><div><span class="new-games-title">${gamesForThisDay.length} ${gamesForThisDay.length > 1 ? 'juegos' : 'juego'} disponibles</span></div>`;
     }
 
+    function completeLastWeek(totalDays) {
+      const remainingSpaces = (7 - (totalDays % 7)) % 7;
+      let html = '';
+      for (let i = 0; i < remainingSpaces; i++) {
+        html += `<span class="day">-</span>`;
+      }
+      return html;
+    }
+
     function initializeModal(ubisoftPlusGames, primeGamingGames, playStationPlusGames, monthNames) {
       const modal = document.getElementById("gameModal");
       const modalBody = document.getElementById("modal-body");
@@ -141,7 +164,17 @@ document.addEventListener("DOMContentLoaded", async function() {
             modalTitle.textContent = `Juegos del ${formattedDate}`.toUpperCase();
     
             let modalContent = '<div class="games-container">';
-            modalContent += `<h3>JUEGOS</h3>${generateGamesEntry(gamesForThisDay)}`;
+    
+            // Agrupar los juegos por tier
+            const gamesByTier = groupGamesByTier(gamesForThisDay);
+    
+            // Generar contenido por cada tier
+            Object.keys(gamesByTier).forEach(tier => {
+              const tierTitle = getTierTitle(tier);
+              modalContent += `<h3>${tierTitle}</h3>`;
+              modalContent += generateGamesEntry(gamesByTier[tier]);
+            });
+    
             modalContent += '</div>';
     
             modalBody.innerHTML = modalContent;
@@ -152,8 +185,80 @@ document.addEventListener("DOMContentLoaded", async function() {
       });
     }
     
+    // Función para agrupar juegos por tier
+    function groupGamesByTier(games) {
+      return games.reduce((acc, game) => {
+        const tier = game.tier || 'Sin categoría';  // Para manejar juegos sin categoría (si los hay)
+        if (!acc[tier]) {
+          acc[tier] = [];
+        }
+        acc[tier].push(game);
+        return acc;
+      }, {});
+    }
+    
+    // Función para obtener el título del tier
+    function getTierTitle(tier) {
+      switch (tier) {
+        case 'Essential':
+          return 'PlayStation Plus Essential';
+        case 'Extra':
+          return 'PlayStation Plus Extra';
+        case 'Premium':
+          return 'PlayStation Plus Premium';
+        case 'Amazon Prime Gaming':
+          return 'Amazon Prime Gaming';
+        default:
+          return tier;  // En caso de que no tenga tier
+      }
+    }
+                
     function generateGamesEntry(games) {
-      return `<div class="games-entry">${games.map(game => `<div class="game-entry"><a href="${game.url}" target="_blank"><img class="cover" src="${game.cover}" alt="${game.name}"><p class="game-name">${game.name}</p></a></div>`).join('')}</div>`;
+      return `
+        <div class="games-entry">
+          ${games.map(game => `
+            <div class="game-entry">
+              <a href="${game.url}" target="_blank">
+                ${generatePlatformsIcons(game.platforms)}
+                <img class="cover" src="${game.cover}" alt="${game.name}">
+                <p class="game-name">${game.name}</p>
+              </a>
+            </div>
+          `).join('')}
+        </div>`;
+    }
+
+    function generatePlatformsIcons(platforms) {
+      let platformsHTML = '<div class="platforms">';
+      let hasPlayStation = false;
+      platforms.forEach(platform => {
+          switch (platform) {
+            case "Epic Games Store":
+              platformsHTML += `<img src="../utils/images/brands/cib-epic-games.svg" alt="Epic Games">`;
+              break;
+            case "GOG":
+              platformsHTML += `<img src="../utils/images/brands/cib-gog-com.svg" alt="GOG">`;
+              break;
+            case "PS5":
+            case "PS4":
+              if (!hasPlayStation) {
+                platformsHTML += `<img src="../utils/images/brands/cib-playstation.svg" alt="PlayStation">`;
+                hasPlayStation = true;
+              }
+              break;
+            case "Ubisoft+":
+              platformsHTML += `<img src="../utils/images/brands/cib-ubisoft.svg" alt="Ubisoft+">`;
+              break;
+            case "Amazon Games App":
+              platformsHTML += `<img src="../utils/images/brands/cib-amazon.svg" alt="Amazon Games App">`;
+              break;
+            default:
+              platformsHTML += `${platform}`;
+          }
+      });
+    
+      platformsHTML += '</div>';
+      return platformsHTML;
     }
 
     function formatDateForModal(date, monthNames) {
