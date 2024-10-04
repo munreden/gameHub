@@ -25,10 +25,10 @@
   ],
   "primeGaming": [
     {
-      "name": "Middle-earth: Shadow of Mordor Game of the Year Edition",
-      "date": "2024-09-05",
-      "url": "https://gaming.amazon.com/middle-earth-shadow-of-mordor-game-of-the-year-edition-gog/dp/amzn1.pg.item.02079837-dccd-4c73-b9e1-45164e1dadbc",
-      "cover": "https://m.media-amazon.com/images/I/91Cn1U4D4EL._SX540_._AGmerlin_._FMwebp_.jpg",
+      "name": "Tomb Raider Legend",
+      "date": "2024-10-03",
+      "url": "https://gaming.amazon.com/tomb-raider-legend-gog/dp/amzn1.pg.item.deb20932-3e61-435a-863d-57f8c2b59459",
+      "cover": "https://m.media-amazon.com/images/I/91+E4C1n49L._SX540_._AGmerlin_._FMwebp_.jpg",
       "platforms": [
         "GOG"
       ],
@@ -36,10 +36,10 @@
       "tier": "Prime Gaming"
     },
     {
-      "name": "LEGO El Señor de los Anillos",
+      "name": "Hive Jump 2: Survivors",
       "date": "2024-09-05",
-      "url": "https://gaming.amazon.com/lego-the-lord-of-the-rings-gog/dp/amzn1.pg.item.b9a0106f-765c-4c5f-90b0-fef18437538e",
-      "cover": "https://m.media-amazon.com/images/I/A1fQ+0U8LfL._SX540_._AGmerlin_._FMwebp_.jpg",
+      "url": "https://gaming.amazon.com/hive-jump-2-survivors-gog/dp/amzn1.pg.item.515e88ec-eb84-4f1e-9cf4-9da6e1b8b625",
+      "cover": "https://m.media-amazon.com/images/I/91dlpoe+BNL._SX540_._AGmerlin_._FMwebp_.jpg",
       "platforms": [
         "GOG"
       ],
@@ -47,10 +47,10 @@
       "tier": "Prime Gaming"
     },
     {
-      "name": "Borderlands 2",
-      "date": "2024-09-05",
-      "url": "https://gaming.amazon.com/borderlands-2-epic/dp/amzn1.pg.item.a29bb597-81eb-46b9-b1ee-8a0490bb8cfc",
-      "cover": "https://m.media-amazon.com/images/I/A1DRunYoUcL._SX540_._AGmerlin_._FMwebp_.jpg",
+      "name": "No Straight Roads",
+      "date": "2024-10-03",
+      "url": "https://gaming.amazon.com/no-straight-roads-epic/dp/amzn1.pg.item.261f39ef-7817-4333-9685-913c07486a41",
+      "cover": "https://m.media-amazon.com/images/I/91Nc8MdnvyL._SX540_._AGmerlin_._FMwebp_.jpg",
       "platforms": [
         "Epic Games Store"
       ],
@@ -58,10 +58,10 @@
       "tier": "Prime Gaming"
     },
     {
-      "name": "Shadow of the Tomb Raider: Definitive Edition",
-      "date": "2024-09-05",
-      "url": "https://gaming.amazon.com/shadow-of-the-tomb-raider-definitive-edition-epic/dp/amzn1.pg.item.2bf7032d-b8f7-46ee-9244-75cdc8507382",
-      "cover": "https://m.media-amazon.com/images/I/A11ylYyW+EL._SX540_._AGmerlin_._FMwebp_.jpg",
+      "name": "The Eternal Cylinder",
+      "date": "2024-10-03",
+      "url": "https://gaming.amazon.com/the-eternal-cylinder-epic/dp/amzn1.pg.item.6fc06cc3-039a-4f6a-b788-100a5fa9c87e",
+      "cover": "https://m.media-amazon.com/images/I/915tQ3PpWuL._SX540_._AGmerlin_._FMwebp_.jpg",
       "platforms": [
         "Epic Games Store"
       ],
@@ -69,307 +69,18 @@
       "tier": "Prime Gaming"
     },
     {
-      "name": "GreedFall: Gold Edition",
-      "date": "2024-09-05",
-      "url": "https://gaming.amazon.com/greedfall-gold-edition-gog/dp/amzn1.pg.item.7aedd799-b6db-4a99-8bde-91e97785391a",
-      "cover": "https://m.media-amazon.com/images/I/91jv6rDfFoL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "GOG"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Whispered Secrets: Everburning Candle Collector’s Edition",
-      "date": "2024-09-05",
-      "url": "https://gaming.amazon.com/whispered-secrets-everburning-candle-ce-aga/dp/amzn1.pg.item.56bb3d56-d908-4d37-aa7a-3fb33069360d",
-      "cover": "https://m.media-amazon.com/images/I/91hEZDFL0uL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Amazon Games App"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Minabo — A Walk through Life",
-      "date": "2024-09-05",
-      "url": "https://gaming.amazon.com/minabo-a-walk-through-life-aga/dp/amzn1.pg.item.e8d7a350-f629-47e4-9fe7-1802d9e414bf",
-      "cover": "https://m.media-amazon.com/images/I/A1DoIpetv2L._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Amazon Games App"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Eternights",
-      "date": "2024-09-05",
-      "url": "https://gaming.amazon.com/eternights-epic/dp/amzn1.pg.item.4a731808-e7d4-4efb-8b9b-1387f51b8f61",
-      "cover": "https://m.media-amazon.com/images/I/91pj4c7y9-L._SX540_._AGmerlin_._FMwebp_.jpg",
+      "name": "Spirit of the North",
+      "date": "2024-10-03",
+      "url": "https://gaming.amazon.com/spirit-of-the-north-epic/dp/amzn1.pg.item.7f96c010-c097-4b64-9366-567bee9fa123",
+      "cover": "https://m.media-amazon.com/images/I/91eRPkphLXL._SX540_._AGmerlin_._FMwebp_.jpg",
       "platforms": [
         "Epic Games Store"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "LEGO Indiana Jones: The Original Adventures",
-      "date": "2024-09-05",
-      "url": "https://gaming.amazon.com/lego-indiana-jones-the-original-adventures-aga/dp/amzn1.pg.item.3cf2d27b-a1ff-4a4b-bb98-2a91fcd11763",
-      "cover": "https://m.media-amazon.com/images/I/A1JfV4e7gdL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Amazon Games App"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Borderlands: The Pre-Sequel",
-      "date": "2024-09-05",
-      "url": "https://gaming.amazon.com/borderlands-the-pre-sequel-epic/dp/amzn1.pg.item.4604b37c-3756-4d7b-8564-4ade5943b150",
-      "cover": "https://m.media-amazon.com/images/I/A1mqon9WFKL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Epic Games Store"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Tales from the Borderlands",
-      "date": "2024-09-12",
-      "url": "https://gaming.amazon.com/tales-from-the-borderlands-epic/dp/amzn1.pg.item.7d8968f0-b1ff-4c44-a61a-5e5186ab9a35",
-      "cover": "https://m.media-amazon.com/images/I/A1Dz5Qgnc0L._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Epic Games Store"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "9 Years of Shadows",
-      "date": "2024-09-12",
-      "url": "https://gaming.amazon.com/9-years-of-shadows-gog/dp/amzn1.pg.item.a8cae2e2-07cf-4185-9a1e-48b15d213b46",
-      "cover": "https://m.media-amazon.com/images/I/A1BTcHT4l5L._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "GOG"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Moonlighter",
-      "date": "2024-09-12",
-      "url": "https://gaming.amazon.com/moonlighter-gog/dp/amzn1.pg.item.2392f73c-fa1d-4cfa-975d-5ba96bdc8fd7",
-      "cover": "https://m.media-amazon.com/images/I/91YOd7QpVjL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "GOG"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Golfie",
-      "date": "2024-09-12",
-      "url": "https://gaming.amazon.com/golfie-aga/dp/amzn1.pg.item.5cc4a37e-8991-4d4e-91d2-2760c28fccb4",
-      "cover": "https://m.media-amazon.com/images/I/9130y+YiAgL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Amazon Games App"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Cursed to Golf",
-      "date": "2024-09-12",
-      "url": "https://gaming.amazon.com/cursed-to-golf-gog/dp/amzn1.pg.item.b925bbe0-b052-454f-b357-381547048085",
-      "cover": "https://m.media-amazon.com/images/I/91rShlgd+mL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "GOG"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Hell Pie",
-      "date": "2024-09-12",
-      "url": "https://gaming.amazon.com/hell-pie-gog/dp/amzn1.pg.item.31e693f1-75af-4002-a89b-40bb92b8c70e",
-      "cover": "https://m.media-amazon.com/images/I/91tS-A2xw9L._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "GOG"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Showgunners",
-      "date": "2024-09-12",
-      "url": "https://gaming.amazon.com/showgunners-gog/dp/amzn1.pg.item.082f19d6-1d83-44a9-b2ab-af80d3e3e32c",
-      "cover": "https://m.media-amazon.com/images/I/A1L6+yb-8fL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "GOG"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Arcadegeddon",
-      "date": "2024-09-12",
-      "url": "https://gaming.amazon.com/arcadegeddon-epic/dp/amzn1.pg.item.5165920f-6780-4f5b-a742-6646d71540d5",
-      "cover": "https://m.media-amazon.com/images/I/A1IKwJ6V-zL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Epic Games Store"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Thronebreaker: The Witcher Tales",
-      "date": "2024-09-19",
-      "url": "https://gaming.amazon.com/thronebreaker-the-witcher-tales-gog/dp/amzn1.pg.item.1e56678f-a42c-4004-84a5-3b92fd162ad3",
-      "cover": "https://m.media-amazon.com/images/I/A16kiKlpiOL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "GOG"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "The Falconeer",
-      "date": "2024-09-19",
-      "url": "https://gaming.amazon.com/the-falconeer-gog/dp/amzn1.pg.item.aaef19ff-9974-4a7c-8dd3-6193db174385",
-      "cover": "https://m.media-amazon.com/images/I/91yLl+LmMOL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "GOG"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "LEGO El Hobbit",
-      "date": "2024-09-19",
-      "url": "https://gaming.amazon.com/lego-the-hobbit-gog/dp/amzn1.pg.item.ab3a2867-9b29-482e-a06a-8d91f380a0e2",
-      "cover": "https://m.media-amazon.com/images/I/A1o3TOQD3CL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "GOG"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "I Love Finding Cats & Pups — Collector’s Edition",
-      "date": "2024-09-19",
-      "url": "https://gaming.amazon.com/i-love-finding-cats-and-pups-ce-legacy/dp/amzn1.pg.item.6e6045e1-dd94-486d-b1ee-50b94de82b2c",
-      "cover": "https://m.media-amazon.com/images/I/91TBMJt7JmL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Legacy Games"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Kerbal Space Program",
-      "date": "2024-09-19",
-      "url": "https://gaming.amazon.com/kerbal-space-program-gog/dp/amzn1.pg.item.86a1a1cd-19c4-40d8-9f13-abeb3ed8b54c",
-      "cover": "https://m.media-amazon.com/images/I/91ty6x+jrvL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "GOG"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Mystery Case Files: Black Crown — Collector's Edition",
-      "date": "2024-09-26",
-      "url": "https://gaming.amazon.com/mystery-case-files-black-crown-ce-aga/dp/amzn1.pg.item.bb904e75-7a7f-4b8a-baff-5413b6ddae8c",
-      "cover": "https://m.media-amazon.com/images/I/91A+ryx8UJL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Amazon Games App"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Ghost Song",
-      "date": "2024-09-26",
-      "url": "https://gaming.amazon.com/ghost-song-gog/dp/amzn1.pg.item.317f4613-e5ff-4b03-9129-246f32fb8feb",
-      "cover": "https://m.media-amazon.com/images/I/91W4qfPAqdL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "GOG"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Ynglet",
-      "date": "2024-09-26",
-      "url": "https://gaming.amazon.com/ynglet-aga/dp/amzn1.pg.item.0d5b027c-2be2-4ef4-aa84-af98321816fc",
-      "cover": "https://m.media-amazon.com/images/I/81tHFGhbr+L._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Amazon Games App"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Black Desert",
-      "date": "2024-09-26",
-      "url": "https://gaming.amazon.com/black-desert-pearl-abyss/dp/amzn1.pg.item.f74cb70d-c466-4233-bf02-3da23cd4b98f",
-      "cover": "https://m.media-amazon.com/images/I/A1JNEM-1DtL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Pearl Abyss"
-      ],
-      "hidden": false,
-      "tier": "Prime Gaming"
-    },
-    {
-      "name": "Giana Sisters: Twisted Dreams",
-      "date": "2024-09-26",
-      "url": "https://gaming.amazon.com/giana-sisters-twisted-dreams-aga/dp/amzn1.adg.product.0a76e83e-1ecc-43eb-84bd-93e6675ec697",
-      "cover": "https://m.media-amazon.com/images/I/91VE6TUZCzL._SX540_._AGmerlin_._FMwebp_.jpg",
-      "platforms": [
-        "Amazon Games App"
       ],
       "hidden": false,
       "tier": "Prime Gaming"
     }
   ],
   "playStationPlus": [
-    {
-      "name": "Little Nightmares II (PS4 & PS5)",
-      "date": "2024-09-03",
-      "url": "https://store.playstation.com/es-es/product/EP0700-PPSA02154_00-LITTLENIGHTS2000",
-      "cover": "https://store-images.s-microsoft.com/image/apps.1273.64860558234786024.c6d17f3a-2d73-46e6-8a1e-c828e528d51f.c0546c16-c1b2-4f91-921f-762c88c3ab54?q=90&w=177&h=265",
-      "tier": "PSPlus Essential",
-      "platforms": [
-        "PS5",
-        "PS4"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "MLB The Show 24 (PS4 & PS5)",
-      "date": "2024-09-03",
-      "url": "https://store.playstation.com/es-es/product/UP9000-PPSA17085_00-MLBTHESHOW24PLUS",
-      "cover": "https://store-images.s-microsoft.com/image/apps.43845.13664843883372690.8fc867c0-5f07-4eac-9e1c-5b855c781bdb.0451c125-a678-4547-9cb0-4b127d4e3d39?q=90&w=177&h=265",
-      "tier": "PSPlus Essential",
-      "platforms": [
-        "PS5",
-        "PS4"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Quidditch Champions (PS4 & PS5)",
-      "date": "2024-09-03",
-      "url": "https://store.playstation.com/es-es/product/UP1018-PPSA05834_00-QUIDDITCH0000000",
-      "cover": "https://store-images.s-microsoft.com/image/apps.8810.14512105128062645.af9dfbf6-f9ff-4b06-990d-523df7195906.57e5f70a-ab6a-40e5-8ab4-ca929674ae75?q=90&w=177&h=265",
-      "tier": "PSPlus Essential",
-      "platforms": [
-        "PS5",
-        "PS4"
-      ],
-      "hidden": false
-    },
     {
       "name": "Dead Space (PS5)",
       "date": "2024-10-01",
@@ -404,158 +115,6 @@
         "PS4"
       ],
       "hidden": false
-    },
-    {
-      "name": "The Plucky Squire (PS5)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/UP3643-PPSA15319_00-PLUCKYSQUIREPS5A",
-      "cover": "https://store-images.s-microsoft.com/image/apps.13700.13575745475530855.171d9353-8c10-4204-9255-d9ad89663f73.43384782-210e-4562-8358-75fe4dae5363?q=90&w=177&h=265",
-      "tier": "PSPlus Extra",
-      "platforms": [
-        "PS5"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Under The Waves (PS4 & PS5)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/EP1628-PPSA08055_00-SUB0000000000001",
-      "cover": "https://store-images.s-microsoft.com/image/apps.44934.13775499997385404.d9c152c9-a962-4ec5-a60f-17859248d4d9.7624cd9e-12fb-4a8f-a3ac-0cd0d7a40756?q=90&w=177&h=265",
-      "tier": "PSPlus Extra",
-      "platforms": [
-        "PS5",
-        "PS4"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Night in the Woods (PS4 & PS5)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/EP0403-PPSA05489_00-9450784989962318",
-      "cover": "https://store-images.s-microsoft.com/image/apps.34394.67507673447846593.6652438a-e13f-460b-afd9-a160c1f79ade.96769618-2073-4cf4-bee6-f02122a3d5f9?q=90&w=177&h=265",
-      "tier": "PSPlus Extra",
-      "platforms": [
-        "PS4",
-        "PS5"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Chernobylite - Complete Edition (PS4 & PS5)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/EP5761-CUSA28037_00-CHERNOBYLITESIEE",
-      "cover": "https://store-images.s-microsoft.com/image/apps.28158.14190385963787265.7096d5df-a729-457c-9a2a-35fdf5f03469.9823efec-9b23-4bb9-bd50-35918558cfe9?q=90&w=177&h=265",
-      "tier": "PSPlus Extra",
-      "platforms": [
-        "PS4",
-        "PS5"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Wild Card Football (PS4 & PS5)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/EP6853-PPSA04395_00-DSYGAMEPS50000EU",
-      "cover": "https://store-images.s-microsoft.com/image/apps.60689.13771893096456403.0069f684-d38e-4f4c-a881-2e8f06c53481.7bf17024-2cbe-4821-bb9c-8051b73d636c?q=90&w=177&h=265",
-      "tier": "PSPlus Extra",
-      "platforms": [
-        "PS4",
-        "PS5"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Space Engineers (PS4 & PS5)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/EP6918-PPSA08253_00-5341513226459957",
-      "cover": "https://store-images.s-microsoft.com/image/apps.2125.13700230312728802.7afc83a6-4afb-4b07-84b4-f40e24213a93.e3658258-be2f-4317-81c1-7f3e8dd2eaa6?q=90&w=177&h=265",
-      "tier": "PSPlus Extra",
-      "platforms": [
-        "PS4",
-        "PS5"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Road 96 (PS4 & PS5)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/EP3617-PPSA05592_00-ROAD96GEN9GAME00",
-      "cover": "https://store-images.s-microsoft.com/image/apps.33921.14401791124788682.a53b3c8e-a868-4dbf-845f-6db87942340c.32c2bc03-fbaf-42e2-8326-1e68d22fa8ea?q=90&w=177&h=265",
-      "tier": "PSPlus Extra",
-      "platforms": [
-        "PS4",
-        "PS5"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Ben 10 (PS4)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/EP3678-CUSA09538_00-BEN1000000000000",
-      "cover": "https://store-images.s-microsoft.com/image/apps.4925.66243438503980105.5d36b9a8-4a8f-411a-8ef9-61bcf3f0ea00.c054ecb4-3d4b-4d1b-964c-3a4cbe439758?q=90&w=177&h=265",
-      "tier": "PSPlus Extra",
-      "platforms": [
-        "PS4"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Far Cry 5 (PS4)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/EP0001-CUSA05847_00-FARCRY5GAME00000",
-      "cover": "https://store-images.s-microsoft.com/image/apps.11227.69582963086497758.e1cff2e3-ddf1-42bf-930d-f380ad63f100.38d7bb7c-3e33-471b-b22d-0f0a635832ad?q=90&w=177&h=265",
-      "tier": "PSPlus Extra",
-      "platforms": [
-        "PS4"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Pistol Whip (PS VR2)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/EP0168-PPSA12514_00-8544630145900913",
-      "cover": "https://images.g2a.com/300x400/1x1x1/pistol-whip-pc-steam-gift-global-i10000192935002/d404e82378b344d5bf5c3275",
-      "tier": "PSPlus Premium",
-      "platforms": [
-        "PS5"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Secret Agent Clank (PS4 & PS5)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/UP9000-PPSA14319_00-UCUS986970000000",
-      "cover": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/co2iwb.jpg",
-      "tier": "PSPlus Premium",
-      "platforms": [
-        "PS5",
-        "PS4"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Sky Gunner (PS4 & PS5)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/product/UP9000-PPSA23535_00-SLUS203840000000",
-      "cover": "https://cdn2.steamgriddb.com/thumb/1de0b488d1551786164892a2f3b6abc3.jpg",
-      "tier": "PSPlus Premium",
-      "platforms": [
-        "PS5",
-        "PS4"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Mr Moskeeto (PS4 & PS5)",
-      "date": "2024-09-17",
-      "url": "https://store.playstation.com/es-es/concept/10010951",
-      "cover": "https://products.eneba.games/resized-products/Fl5Iuh9E95U36iq_ob_RO5qC7sZAdL6wrdqA7NQYMxk_1920x1080_1x-0.jpg",
-      "tier": "PSPlus Premium",
-      "platforms": [
-        "PS5",
-        "PS4"
-      ],
-      "hidden": false
-    }    
+    }   
   ]
 }
