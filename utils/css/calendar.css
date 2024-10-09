@@ -258,7 +258,7 @@ body {
   }
 
   .games-entry {
-    grid-template-columns: repeat(6, 1fr); /* Se mantiene en 6 columnas para pantallas grandes */
+    grid-template-columns: repeat(5, 1fr); /* Se mantiene en 6 columnas para pantallas grandes */
     gap: 0.5em;
   }
 
