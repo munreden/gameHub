@@ -29,7 +29,7 @@
   /* Sizes */
   --width-calendar-days: 14.28%;
   --height-calendar-days: 12vh;
-  --width-new-games-badge: 40px;
+  --width-new-games-badge: 15px;
   --cover-width: 8em;
   --font-size-footer: 1em;
 
@@ -125,10 +125,11 @@ body {
 
 /* Badge */
 .new-games-badge {
-  margin-left: 0.5em;
   position: absolute;
-  width: 0.8em;
-  height: 0.8em;
+  top: 10px;
+  right: 100px;
+  width: var(--width-new-games-badge);
+  height: var(--width-new-games-badge);
   border-radius: var(--border-radius-new-games-badge);
   background-color: var(--color-new-games-badge);
   font-size: var(--font-size-new-games-badge);
@@ -137,6 +138,10 @@ body {
 .new-games-title {
   font-size: var(--font-size-new-games-title);
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .fpd{
@@ -197,7 +202,7 @@ body {
 
 .games-entry {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1em;
 }
 
@@ -258,7 +263,7 @@ body {
   }
 
   .games-entry {
-    grid-template-columns: repeat(5, 1fr); /* Se mantiene en 6 columnas para pantallas grandes */
+    grid-template-columns: repeat(6, 1fr); /* Se mantiene en 6 columnas para pantallas grandes */
     gap: 0.5em;
   }
 
