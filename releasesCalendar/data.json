@@ -179,7 +179,7 @@
       "name": "Ghostbusters: Spirits Unleashed (PS4 & PS5)",
       "date": "2024-10-15",
       "url": "https://store.playstation.com/es-es/product/EP2954-PPSA07254_00-SWAYZEGAME000000",
-      "cover": "hhttps://store-images.s-microsoft.com/image/apps.44222.14235158100190081.70436847-76e4-41ea-9a98-05287478584d.2de88df5-d59a-414e-a31f-af4ee7184a07?q=90&w=177&h=265",
+      "cover": "https://store-images.s-microsoft.com/image/apps.44222.14235158100190081.70436847-76e4-41ea-9a98-05287478584d.2de88df5-d59a-414e-a31f-af4ee7184a07?q=90&w=177&h=265",
       "tier": "PSPlus Extra",
       "platforms": [
         "PS5",
@@ -207,18 +207,6 @@
       "tier": "PSPlus Extra",
       "platforms": [
         "PS5"
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Tour de France 2023 (PS4 & PS5)",
-      "date": "2024-10-15",
-      "url": "https://store.playstation.com/es-es/product/EP6665-PPSA14198_00-TDF2300000000000",
-      "cover": "https://store-images.s-microsoft.com/image/apps.7097.13763320840866026.0ac7beeb-ae64-4fa4-b7ab-2b7dfabed1e5.6991818c-7357-4ccf-9538-37b6d1f0932d?q=90&w=177&h=265",
-      "tier": "PSPlus Extra",
-      "platforms": [
-        "PS5",
-        "PS4"
       ],
       "hidden": false
     },
