@@ -115,6 +115,181 @@
         "PS4"
       ],
       "hidden": false
-    }   
+    },
+    {
+      "name": "Dead Island 2 (PS4 & PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP4062-PPSA03099_00-DI2MAINSIEEPS500",
+      "cover": "https://store-images.s-microsoft.com/image/apps.26610.66080721822734920.910bec42-dd7c-4bcf-9acb-d97e1b5501f0.5a916954-24f8-4f6e-95e7-74cff29199d9?q=90&w=177&h=265",
+      "tier": "PSPlus Extra",
+      "platforms": [
+        "PS5",
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "Two Point Campus (PS4 & PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP0177-PPSA03644_00-CAMPUSEU00000000",
+      "cover": "https://store-images.s-microsoft.com/image/apps.63446.14161945646118465.4c1e1eb1-a1ec-49c5-b06d-8386c15bcbf3.53106aac-007d-462c-8cd4-72a61eb5d4bc?q=90&w=177&h=265",
+      "tier": "PSPlus Extra",
+      "platforms": [
+        "PS5",
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "The Dark Pictures Anthology: The Devil in Me (PS4 & PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP0700-CUSA31495_00-SMGDARKPICTURESD",
+      "cover": "https://store-images.s-microsoft.com/image/apps.22295.14106128550577109.a9cfdab5-c1a1-4815-9b47-6f3d6627243d.774e6bf1-ae99-4dd3-855d-8db250bec0a5?q=90&w=177&h=265",
+      "tier": "PSPlus Extra",
+      "platforms": [
+        "PS5",
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "Gris (PS4 & PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP3643-PPSA09804_00-8621906653515501",
+      "cover": "https://store-images.s-microsoft.com/image/apps.47826.13625693263060421.b5379d86-b985-4508-ad2a-8af4b40a9fcd.d94da6c9-4a9d-4b6f-bad7-b0fe27da32bb?q=90&w=177&h=265",
+      "tier": "PSPlus Extra",
+      "platforms": [
+        "PS5",
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "Return to Monkey Island (PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP3643-PPSA10123_00-RTMIPS5SIEE00000",
+      "cover": "https://store-images.s-microsoft.com/image/apps.32947.14176324986442763.11fa95be-f98f-4be1-a416-9571cd1286df.80a3abd4-c71c-4e0a-88a9-1c8542fbd318?q=90&w=177&h=265",
+      "tier": "PSPlus Extra",
+      "platforms": [
+        "PS5"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "Ghostbusters: Spirits Unleashed (PS4 & PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP2954-PPSA07254_00-SWAYZEGAME000000",
+      "cover": "hhttps://store-images.s-microsoft.com/image/apps.44222.14235158100190081.70436847-76e4-41ea-9a98-05287478584d.2de88df5-d59a-414e-a31f-af4ee7184a07?q=90&w=177&h=265",
+      "tier": "PSPlus Extra",
+      "platforms": [
+        "PS5",
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "Firefighting Simulator The Squad (PS4 & PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP2430-PPSA06405_00-CESD663730000000",
+      "cover": "https://store-images.s-microsoft.com/image/apps.37983.13574093128038227.7f017f9d-a7e7-46d3-ac09-ad5cece1a687.d4771ae5-9b57-4a43-8021-142acfe2e595?q=90&w=177&h=265",
+      "tier": "PSPlus Extra",
+      "platforms": [
+        "PS5",
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "Overpass 2 (PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP6665-PPSA09849_00-OP20000000000000",
+      "cover": "https://store-images.s-microsoft.com/image/apps.39486.14610793183422407.67143de2-05b8-409d-b675-e8719f2f37c6.aab5b7a2-5df3-4914-b64a-58fd55dc8f5c?q=90&w=177&h=265",
+      "tier": "PSPlus Extra",
+      "platforms": [
+        "PS5"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "Tour de France 2023 (PS4 & PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP6665-PPSA14198_00-TDF2300000000000",
+      "cover": "https://store-images.s-microsoft.com/image/apps.7097.13763320840866026.0ac7beeb-ae64-4fa4-b7ab-2b7dfabed1e5.6991818c-7357-4ccf-9538-37b6d1f0932d?q=90&w=177&h=265",
+      "tier": "PSPlus Extra",
+      "platforms": [
+        "PS5",
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "Tour de France 2023 (PS4 & PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP6665-PPSA14198_00-TDF2300000000000",
+      "cover": "https://store-images.s-microsoft.com/image/apps.7097.13763320840866026.0ac7beeb-ae64-4fa4-b7ab-2b7dfabed1e5.6991818c-7357-4ccf-9538-37b6d1f0932d?q=90&w=177&h=265",
+      "tier": "PSPlus Extra",
+      "platforms": [
+        "PS5",
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "Tom Clancy’s Ghost Recon® Wildlands (PS4)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP0001-CUSA02819_00-GRWEMEANORMAL000",
+      "cover": "https://store-images.s-microsoft.com/image/apps.43306.65577870102127192.24a0a154-ded1-4a40-a91f-102019aaee70.3d6649c7-7ee3-4a8d-80f6-3eeb41e5484d?q=90&w=177&h=265",
+      "tier": "PSPlus Extra",
+      "platforms": [
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "The Last Clockwinder (PSVR2)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP3770-PPSA13798_00-0364841955305234",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMzk4YjdkZTEtNzcyNS00NjUxLWI2ZTEtYmI0ZTZlYzQwZDFlXkEyXkFqcGc@._V1_.jpg",
+      "tier": "PSPlus Premium",
+      "platforms": [
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "Dino Crisis (PS4 & PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/search/dino%20crisis",
+      "cover": "https://cdn2.steamgriddb.com/thumb/6bc2200adcaf3c7d3dfd5548d803b71a.jpg",
+      "tier": "PSPlus Premium",
+      "platforms": [
+        "PS5",
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "Siren (PS4 & PS5)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/search/siren",
+      "cover": "https://cdn2.steamgriddb.com/thumb/c0d95a8333a67c5bf58e66f15d62eea2.jpg",
+      "tier": "PSPlus Premium",
+      "platforms": [
+        "PS5",
+        "PS4"
+      ],
+      "hidden": false
+    },
+    {
+      "name": "R-Type Dimensions EX (PS4)",
+      "date": "2024-10-15",
+      "url": "https://store.playstation.com/es-es/product/EP2038-CUSA14559_00-RTYPEDIMENSIONSE",
+      "cover": "https://cdn2.steamgriddb.com/thumb/3ca0028f4bc3b715f9fc4d361de6c9c6.jpg",
+      "tier": "PSPlus Premium",
+      "platforms": [
+        "PS4"
+      ],
+      "hidden": false
+    }
   ]
 }
