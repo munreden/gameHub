@@ -6,7 +6,7 @@ const storeReferalParams = [
     },
     {
         store: "Eneba",
-        referal: "?af_id=GamePassAP"
+        referal: "?af_id=gamepassES5"
     },
     {
         store: "Instant Gaming",
